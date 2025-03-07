@@ -69,7 +69,7 @@ def answer(question , model , tokenizer) :
 torch.cuda.empty_cache()
 
 from huggingface_hub import login
-login('Enter here your huggingface token')
+login('Enter your huggingface token here')
 
 def format_path(path) : 
 
@@ -89,7 +89,7 @@ with st.spinner('Loading Tokenizer and Model') :
         ) , 
         padding = True , 
         truncation = True , 
-        token ='Enter here your huggingface token')
+        token ='Enter your huggingface token here')
     tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(
         format_path(
