@@ -1,0 +1,11 @@
+peft
+torch
+faiss-cpu
+streamlit 
+langchain
+accelerate
+transformers
+langchain_core
+langchain_community 
+bitsandbytes
+sentence-transformers
