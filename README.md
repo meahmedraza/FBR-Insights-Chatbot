@@ -94,7 +94,7 @@ The repository includes:
 
 Here’s a sample chatbot output screenshot:  
 
-![Chatbot Output](fbrinsight/Images/'output test.png')
+![Chatbot Output](/fbrinsight/Images/output%20test.png)
 
 
 ## 🚀 Deployment Instructions
